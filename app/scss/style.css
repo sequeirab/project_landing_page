@@ -284,6 +284,11 @@ button:hover::before,
   }
 }
 
+.header {
+  position: relative;
+  z-index: 1;
+}
+
 .header.open .overlay {
   display: block;
 }
